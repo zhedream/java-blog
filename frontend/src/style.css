@@ -1,0 +1,27 @@
+:root {
+  --primary: #409eff;
+  --bg: #f0f2f5;
+  --card-bg: #fff;
+  --text: #303133;
+  --text-secondary: #606266;
+  --text-muted: #909399;
+  --border: #e4e7ed;
+  --radius: 10px;
+  --shadow: 0 2px 10px rgba(0,0,0,.07);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--primary); text-decoration: none; }
+a:hover { opacity: .85; }
+img { max-width: 100%; }
